@@ -3,6 +3,7 @@ import datetime
 import RPi.GPIO as GPIO
 from mpd import MPDClient
 from RPLCD.i2c import CharLCD
+import socket
 
 # GPIO
 nextButton = 4
@@ -56,8 +57,11 @@ def LcdScrolling(String):
     if current_time >= LcdScrolling.last_time + datetime.timedelta(milliseconds=500):
         LcdScrolling.last_time = current_time
 
-        lcd.cursor_pos = (0, 0)
-        lcd.write_string(LcdScrolling.workingstring[LcdScrolling.index:LcdScrolling.index+LCD_LEN])
+        try:
+            lcd.cursor_pos = (0, 0)
+            lcd.write_string(LcdScrolling.workingstring[LcdScrolling.index:LcdScrolling.index+LCD_LEN])
+        except:
+            print("lcd.write_string failed")
         #print(LcdScrolling.workingstring[LcdScrolling.index:LcdScrolling.index+LCD_LEN])
         if LcdScrolling.wait < LCD_MAX_WAIT:
             LcdScrolling.wait = LcdScrolling.wait + 1
