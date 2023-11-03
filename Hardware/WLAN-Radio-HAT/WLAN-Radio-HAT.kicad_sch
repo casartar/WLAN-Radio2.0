@@ -1158,7 +1158,7 @@
   (junction (at 119.38 90.17) (diameter 0) (color 0 0 0 0)
     (uuid 9c63eea2-8634-423e-b06c-e5fc527a91ea)
   )
-  (junction (at 243.84 69.85) (diameter 0) (color 0 0 0 0)
+  (junction (at 227.33 69.85) (diameter 0) (color 0 0 0 0)
     (uuid a85f98cd-acb1-4509-b824-44ce2a145341)
   )
   (junction (at 201.93 50.8) (diameter 0) (color 0 0 0 0)
@@ -1281,7 +1281,7 @@
     (stroke (width 0) (type default))
     (uuid 25feb89f-389a-434f-9caf-aa80f717b3cb)
   )
-  (wire (pts (xy 231.14 64.77) (xy 246.38 64.77))
+  (wire (pts (xy 214.63 64.77) (xy 229.87 64.77))
     (stroke (width 0) (type default))
     (uuid 2848b4fe-e972-492c-97b9-8936a4dc807b)
   )
@@ -1289,17 +1289,13 @@
     (stroke (width 0) (type default))
     (uuid 2b9462e9-c893-4fff-af59-32288f169182)
   )
-  (wire (pts (xy 246.38 62.23) (xy 243.84 62.23))
+  (wire (pts (xy 229.87 62.23) (xy 227.33 62.23))
     (stroke (width 0) (type default))
     (uuid 2b9c951d-3a91-4274-ad76-c4b5b0e10e6f)
   )
   (wire (pts (xy 170.18 109.22) (xy 170.18 110.49))
     (stroke (width 0) (type default))
     (uuid 2cdef52b-553f-4440-bf4f-c2be18081bc6)
-  )
-  (wire (pts (xy 218.44 73.66) (xy 219.71 73.66))
-    (stroke (width 0) (type default))
-    (uuid 2e673039-ef2f-49b6-9b5d-0379cd3da7c1)
   )
   (wire (pts (xy 156.21 100.33) (xy 156.21 101.6))
     (stroke (width 0) (type default))
@@ -1317,7 +1313,7 @@
     (stroke (width 0) (type default))
     (uuid 3823ef2e-b1e3-4260-ad6f-90268b5c8607)
   )
-  (wire (pts (xy 231.14 73.66) (xy 231.14 64.77))
+  (wire (pts (xy 214.63 73.66) (xy 214.63 64.77))
     (stroke (width 0) (type default))
     (uuid 40a969ce-7bf0-4d09-ad52-8160cf2d0947)
   )
@@ -1329,7 +1325,7 @@
     (stroke (width 0) (type default))
     (uuid 435b0882-eef5-4206-9f9a-5dd1d9864196)
   )
-  (wire (pts (xy 231.14 59.69) (xy 246.38 59.69))
+  (wire (pts (xy 214.63 59.69) (xy 229.87 59.69))
     (stroke (width 0) (type default))
     (uuid 45d6ac4d-c4ca-48f6-8883-fc3bf3c45b10)
   )
@@ -1353,7 +1349,7 @@
     (stroke (width 0) (type default))
     (uuid 538f5092-3ce9-4e2a-87d4-9583368949de)
   )
-  (wire (pts (xy 241.3 67.31) (xy 246.38 67.31))
+  (wire (pts (xy 224.79 67.31) (xy 229.87 67.31))
     (stroke (width 0) (type default))
     (uuid 547b53c6-b38e-4598-9220-6ac7b5cc2bdb)
   )
@@ -1413,15 +1409,11 @@
     (stroke (width 0) (type default))
     (uuid 7d9681b5-32e6-430d-a9da-5b5a32445b04)
   )
-  (wire (pts (xy 227.33 73.66) (xy 231.14 73.66))
-    (stroke (width 0) (type default))
-    (uuid 806cbb64-c880-4476-a5e1-01d4c2c740d3)
-  )
   (wire (pts (xy 241.3 100.33) (xy 241.3 101.6))
     (stroke (width 0) (type default))
     (uuid 80cb8b29-2fed-41c3-877a-8b116a2ce3b7)
   )
-  (wire (pts (xy 243.84 69.85) (xy 243.84 72.39))
+  (wire (pts (xy 227.33 69.85) (xy 227.33 72.39))
     (stroke (width 0) (type default))
     (uuid 80e32030-8ffd-4a6a-af43-296aa6b24b42)
   )
@@ -1489,7 +1481,7 @@
     (stroke (width 0) (type default))
     (uuid a1517424-9ef4-4e7c-9f0b-a5aa75b6e84f)
   )
-  (wire (pts (xy 201.93 50.8) (xy 210.82 50.8))
+  (wire (pts (xy 201.93 50.8) (xy 214.63 50.8))
     (stroke (width 0) (type default))
     (uuid a36d41d2-0eea-45f5-8fda-47cb2937bb16)
   )
@@ -1501,17 +1493,13 @@
     (stroke (width 0) (type default))
     (uuid a43fcc42-be12-4d9c-868b-658f3d9bc4a6)
   )
-  (wire (pts (xy 243.84 69.85) (xy 246.38 69.85))
+  (wire (pts (xy 227.33 69.85) (xy 229.87 69.85))
     (stroke (width 0) (type default))
     (uuid a631c7b8-5868-4997-a7f5-2dcc68c6ada4)
   )
   (wire (pts (xy 240.03 149.86) (xy 237.49 149.86))
     (stroke (width 0) (type default))
     (uuid a7ba9c47-5d68-4d33-89cb-18d5f53fe954)
-  )
-  (wire (pts (xy 218.44 50.8) (xy 219.71 50.8))
-    (stroke (width 0) (type default))
-    (uuid a883fa51-1f30-48c2-a97b-b418f1a8047a)
   )
   (wire (pts (xy 240.03 138.43) (xy 237.49 138.43))
     (stroke (width 0) (type default))
@@ -1521,7 +1509,7 @@
     (stroke (width 0) (type default))
     (uuid ab591e93-9f1b-4418-b487-666b0d9c9009)
   )
-  (wire (pts (xy 231.14 50.8) (xy 231.14 59.69))
+  (wire (pts (xy 214.63 50.8) (xy 214.63 59.69))
     (stroke (width 0) (type default))
     (uuid ad260902-e820-4773-bd48-6329361ff987)
   )
@@ -1532,10 +1520,6 @@
   (wire (pts (xy 233.68 135.89) (xy 240.03 135.89))
     (stroke (width 0) (type default))
     (uuid b19df620-f4ed-452c-8d4c-d74f8fd0fb74)
-  )
-  (wire (pts (xy 227.33 50.8) (xy 231.14 50.8))
-    (stroke (width 0) (type default))
-    (uuid b278d706-1f2a-4bf0-9225-85d2e29d4998)
   )
   (wire (pts (xy 151.13 85.09) (xy 156.21 85.09))
     (stroke (width 0) (type default))
@@ -1593,11 +1577,11 @@
     (stroke (width 0) (type default))
     (uuid db0e777f-e600-436b-821a-91711c54d064)
   )
-  (wire (pts (xy 201.93 73.66) (xy 210.82 73.66))
+  (wire (pts (xy 201.93 73.66) (xy 214.63 73.66))
     (stroke (width 0) (type default))
     (uuid dd04f9ec-7ead-4215-bae7-68ff9549537a)
   )
-  (wire (pts (xy 243.84 62.23) (xy 243.84 69.85))
+  (wire (pts (xy 227.33 62.23) (xy 227.33 69.85))
     (stroke (width 0) (type default))
     (uuid e2d67d0e-b872-462c-8ea3-ad415e5c949e)
   )
@@ -1830,7 +1814,7 @@
     (pin "1" (uuid f0969db7-d1c5-4889-9868-b14d3dcfd7c2))
     (pin "2" (uuid e95d4b6e-2ad4-4eda-b7e1-f05988ecfec3))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "C12") (unit 1)
         )
@@ -1855,7 +1839,7 @@
     )
     (pin "1" (uuid c77827d7-6b42-476c-b99f-2a8d5416a5bd))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR042") (unit 1)
         )
@@ -1880,7 +1864,7 @@
     )
     (pin "1" (uuid d77a15cd-456f-4963-8323-b12d21c99375))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR011") (unit 1)
         )
@@ -1905,7 +1889,7 @@
     )
     (pin "1" (uuid 24e16d3e-8b12-4b40-af3f-66347ce08fc2))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR022") (unit 1)
         )
@@ -1931,7 +1915,7 @@
     (pin "1" (uuid 280bce09-f16e-4fdf-becc-27c3f4ae06cb))
     (pin "2" (uuid 7dbab413-8b9d-4ce9-9599-5cb093242b0c))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "R4") (unit 1)
         )
@@ -1957,7 +1941,7 @@
     (pin "1" (uuid 847fb14d-3654-477d-9dec-034fa64b20b1))
     (pin "2" (uuid 706580d2-f5ac-4ec6-9847-27f577fa865c))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "C6") (unit 1)
         )
@@ -1982,7 +1966,7 @@
     )
     (pin "1" (uuid bd874faf-8a77-4152-8a47-6fbc9bc2ea51))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR019") (unit 1)
         )
@@ -2007,7 +1991,7 @@
     )
     (pin "1" (uuid 7b372ae5-a5aa-4691-a276-09dd94244293))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR044") (unit 1)
         )
@@ -2032,7 +2016,7 @@
     )
     (pin "1" (uuid f0ce16bc-d1bd-4f0c-95d5-316321be3d0d))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR014") (unit 1)
         )
@@ -2057,7 +2041,7 @@
     )
     (pin "1" (uuid bba03198-c1b1-4de4-ab68-4e3da1d81b83))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR08") (unit 1)
         )
@@ -2082,7 +2066,7 @@
     )
     (pin "1" (uuid 0af5e133-9e13-44c1-acb5-d08f175bd0dc))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR018") (unit 1)
         )
@@ -2107,7 +2091,7 @@
     )
     (pin "1" (uuid 21eb2080-8032-498d-9a6d-89c91590ce7c))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR038") (unit 1)
         )
@@ -2133,7 +2117,7 @@
     (pin "1" (uuid 010c71c6-1c00-44ee-b07a-24587a59e93c))
     (pin "2" (uuid e75a037f-bfee-4e72-b408-f6f0f77d1542))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "R2") (unit 1)
         )
@@ -2158,35 +2142,9 @@
     )
     (pin "1" (uuid e542c529-4b91-42e5-8268-64a93cb4fd87))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR07") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 214.63 50.8 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 13d52b1d-0373-4868-acd0-d05d56115ccb)
-    (property "Reference" "C9" (at 214.63 43.18 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "0R" (at 214.63 45.72 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 218.44 49.8348 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 214.63 50.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ca7be7ea-5c1f-4de4-a298-95c94ae48e61))
-    (pin "2" (uuid 1012da90-7955-4d27-bcb0-51b4e516c44a))
-    (instances
-      (project "WLAN-Radio-Head"
-        (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
-          (reference "C9") (unit 1)
         )
       )
     )
@@ -2210,7 +2168,7 @@
     (pin "1" (uuid da868751-e2c2-44c5-81aa-97178cc55daa))
     (pin "2" (uuid 2fba01e6-5480-4cb7-8c5a-4a0580f45b9d))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "J6") (unit 1)
         )
@@ -2235,7 +2193,7 @@
     )
     (pin "1" (uuid c894c61b-9b19-4269-a2d3-2f534db5d552))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR03") (unit 1)
         )
@@ -2261,7 +2219,7 @@
     (pin "1" (uuid bfc6c1f6-9f11-40a1-a9b6-175fccc71a4d))
     (pin "2" (uuid 8bcd2249-3ee6-407a-9f04-44f8534b4c7f))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "C16") (unit 1)
         )
@@ -2286,7 +2244,7 @@
     )
     (pin "1" (uuid f2333f1b-6edf-44e1-8753-69b12cbc1eef))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR043") (unit 1)
         )
@@ -2311,7 +2269,7 @@
     )
     (pin "1" (uuid 4d1cb6a2-2818-4e4b-a3e0-613a3385ecfc))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR052") (unit 1)
         )
@@ -2336,7 +2294,7 @@
     )
     (pin "1" (uuid 5ef79e30-725e-4382-bc93-4641c8240578))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR025") (unit 1)
         )
@@ -2362,7 +2320,7 @@
     (pin "1" (uuid ef2491ba-8ed7-4ed1-b9b5-c9685941f3d8))
     (pin "2" (uuid 7e5d6154-c19e-40de-9bc6-9b293e14837e))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "C13") (unit 1)
         )
@@ -2388,7 +2346,7 @@
     (pin "1" (uuid 3c72b85c-26a3-4bbb-875a-d5b2d78e54e4))
     (pin "2" (uuid 544fe194-3add-4f11-998e-9f8dd3085afd))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "R7") (unit 1)
         )
@@ -2414,7 +2372,7 @@
     (pin "1" (uuid ec8a14f2-e021-480d-834d-b2ea285fff78))
     (pin "2" (uuid 6c4f86db-587b-4fa9-8586-eff33d9d4020))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "C15") (unit 1)
         )
@@ -2478,7 +2436,7 @@
     (pin "8" (uuid f2972906-9c4b-4eff-a24a-4be60fd1ad26))
     (pin "9" (uuid 98512f12-4c9c-44c1-a6a2-a2b729629e5a))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "J1") (unit 1)
         )
@@ -2486,19 +2444,19 @@
     )
   )
 
-  (symbol (lib_id "Connector:Conn_01x05_Pin") (at 251.46 64.77 0) (mirror y) (unit 1)
+  (symbol (lib_id "Connector:Conn_01x05_Pin") (at 234.95 64.77 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3504faea-9513-4c47-bd37-1ef619ca79da)
-    (property "Reference" "J2" (at 252.73 63.5 0)
+    (property "Reference" "J2" (at 236.22 63.5 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "Amp" (at 252.73 66.04 0)
+    (property "Value" "Amp" (at 236.22 66.04 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal" (at 251.46 64.77 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal" (at 234.95 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 251.46 64.77 0)
+    (property "Datasheet" "~" (at 234.95 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid dbafe187-df93-45c3-acd2-95882fc372e6))
@@ -2507,7 +2465,7 @@
     (pin "4" (uuid 0e733e77-c15a-4d84-8480-cbf90c93a31c))
     (pin "5" (uuid e1f28f87-d897-412f-8641-2d84b5d48c25))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "J2") (unit 1)
         )
@@ -2532,7 +2490,7 @@
     )
     (pin "1" (uuid cafd2960-8f61-454c-a38b-dbc615144439))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR04") (unit 1)
         )
@@ -2558,7 +2516,7 @@
     (pin "1" (uuid f09dfe52-6042-4b7e-b660-e4a61a3cc3a8))
     (pin "2" (uuid 4d6eb219-68b8-4261-b91d-a958f83b1f39))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "J4") (unit 1)
         )
@@ -2584,7 +2542,7 @@
     (pin "1" (uuid c2aa37dd-bac6-4bca-bc54-e145317c3bca))
     (pin "2" (uuid 1d6b9d4b-a337-41d6-8f3c-71851629e1fe))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "C14") (unit 1)
         )
@@ -2609,7 +2567,7 @@
     )
     (pin "1" (uuid 8b9b5bd9-83ce-450e-8998-349f594b3839))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR050") (unit 1)
         )
@@ -2634,7 +2592,7 @@
     )
     (pin "1" (uuid 2fb51a8f-78d0-4d61-bfbd-4dd1a1ffd2d0))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR021") (unit 1)
         )
@@ -2659,7 +2617,7 @@
     )
     (pin "1" (uuid 44f40b0c-24b7-4cdd-a028-f2d6c1a2ea09))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR041") (unit 1)
         )
@@ -2685,35 +2643,9 @@
     (pin "1" (uuid f4facca9-ac44-4e93-830f-60ac72a5255a))
     (pin "2" (uuid 669d3372-8c71-4c20-a54f-ecbb7a1633c4))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "R1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 214.63 73.66 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 54735f00-af58-4641-920c-2c04ad9dcbdf)
-    (property "Reference" "C10" (at 214.63 66.04 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "0R" (at 214.63 68.58 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 218.44 72.6948 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 214.63 73.66 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7d0474ba-105d-41a4-876c-5c9a1088a410))
-    (pin "2" (uuid be74e988-901c-4762-bfc2-eb2d6631de91))
-    (instances
-      (project "WLAN-Radio-Head"
-        (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
-          (reference "C10") (unit 1)
         )
       )
     )
@@ -2736,7 +2668,7 @@
     )
     (pin "1" (uuid a986001e-e854-43f2-aa43-e09830e2f7cc))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR048") (unit 1)
         )
@@ -2761,7 +2693,7 @@
     )
     (pin "1" (uuid 473bacdb-0a6c-4dc9-a339-155c0cf7751d))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR045") (unit 1)
         )
@@ -2786,7 +2718,7 @@
     )
     (pin "1" (uuid 0397f3bc-1f75-4eff-bd76-ad1a367edbd6))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR037") (unit 1)
         )
@@ -2811,7 +2743,7 @@
     )
     (pin "1" (uuid bd2107dc-4a43-4216-8674-0db596a71005))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#FLG03") (unit 1)
         )
@@ -2836,7 +2768,7 @@
     )
     (pin "1" (uuid 0f72078c-d0fb-44dc-8bf5-cd1d971fe0ca))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR039") (unit 1)
         )
@@ -2861,7 +2793,7 @@
     )
     (pin "1" (uuid 65395c63-a14c-4b1b-adf1-1b07c2a7f6e9))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#FLG02") (unit 1)
         )
@@ -2885,7 +2817,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "H4") (unit 1)
         )
@@ -2910,7 +2842,7 @@
     )
     (pin "1" (uuid 97375fbe-5c23-488d-9c29-84c6c9270d5f))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR09") (unit 1)
         )
@@ -2935,7 +2867,7 @@
     )
     (pin "1" (uuid 1ea56b3c-005c-41e9-9519-65d5e28b2faa))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR031") (unit 1)
         )
@@ -2960,35 +2892,9 @@
     )
     (pin "1" (uuid 33746396-d8f8-4639-9ae2-a69a3b6a3f41))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR034") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 223.52 50.8 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 87eb5881-8c02-4f02-97fb-85953fb4bd98)
-    (property "Reference" "R5" (at 223.52 44.45 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "0R" (at 223.52 46.99 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 223.52 52.578 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 223.52 50.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 097fd331-2d1d-46dd-81e1-0b17bd938686))
-    (pin "2" (uuid 3adc3269-eeab-40bb-bdc7-c6caa430454d))
-    (instances
-      (project "WLAN-Radio-Head"
-        (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
-          (reference "R5") (unit 1)
         )
       )
     )
@@ -3011,7 +2917,7 @@
     )
     (pin "1" (uuid 94041fbc-4a2f-48be-b4c1-4d4a62ea0b7c))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR051") (unit 1)
         )
@@ -3037,7 +2943,7 @@
     (pin "1" (uuid 926c5aa1-45d3-4575-8397-3e78bdbabd92))
     (pin "2" (uuid a1f65b59-fe6f-4033-9e04-8a4a05923701))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "C2") (unit 1)
         )
@@ -3062,35 +2968,9 @@
     )
     (pin "1" (uuid 8339a2ea-9494-4ec4-bda9-16820480cecc))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR06") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 223.52 73.66 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 96f6232b-0087-4b57-9d19-6f5b9607b27a)
-    (property "Reference" "R6" (at 223.52 67.31 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "0R" (at 223.52 69.85 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 223.52 75.438 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 223.52 73.66 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 11d4b598-ef39-44f6-896d-9eb9020bd588))
-    (pin "2" (uuid 7fd714ef-0ecd-4990-b5ac-f1737d5b9a21))
-    (instances
-      (project "WLAN-Radio-Head"
-        (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
-          (reference "R6") (unit 1)
         )
       )
     )
@@ -3113,7 +2993,7 @@
     )
     (pin "1" (uuid fc7dae66-62ea-4918-83b8-27e01ab57b60))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR036") (unit 1)
         )
@@ -3138,7 +3018,7 @@
     )
     (pin "1" (uuid 93609147-3391-4569-a809-9da46b491a04))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR027") (unit 1)
         )
@@ -3162,7 +3042,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "H2") (unit 1)
         )
@@ -3187,7 +3067,7 @@
     )
     (pin "1" (uuid 4f6cc810-896b-4fcb-a948-d18ca3214ad7))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR017") (unit 1)
         )
@@ -3212,7 +3092,7 @@
     )
     (pin "1" (uuid c4d4d09e-3b0b-49b3-b9ef-7e1f9f0d6013))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#FLG04") (unit 1)
         )
@@ -3236,7 +3116,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "H3") (unit 1)
         )
@@ -3262,7 +3142,7 @@
     (pin "1" (uuid eb49cc91-f3b1-4e0e-9613-6486ae97a598))
     (pin "2" (uuid 944fa44a-436c-4c3c-b02a-007e0fbbc2d7))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "J5") (unit 1)
         )
@@ -3270,24 +3150,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 243.84 72.39 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 227.33 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a3a8f762-1eb3-4214-b3f9-5ac2184b4f2d)
-    (property "Reference" "#PWR032" (at 243.84 78.74 0)
+    (property "Reference" "#PWR032" (at 227.33 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 243.84 77.47 0)
+    (property "Value" "GND" (at 227.33 77.47 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 243.84 72.39 0)
+    (property "Footprint" "" (at 227.33 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 243.84 72.39 0)
+    (property "Datasheet" "" (at 227.33 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8e8ef2b3-8d73-41ef-8ef9-6a8ec154b49c))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR032") (unit 1)
         )
@@ -3312,7 +3192,7 @@
     )
     (pin "1" (uuid 9d8eaa30-e08a-4bbe-9480-4c99aa6ff9ef))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR028") (unit 1)
         )
@@ -3337,7 +3217,7 @@
     )
     (pin "1" (uuid f92250f4-c68e-4b40-8d66-d657ccc4a005))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR046") (unit 1)
         )
@@ -3362,7 +3242,7 @@
     )
     (pin "1" (uuid 3bb754c9-9dfb-4203-9c24-3c8caa279976))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR010") (unit 1)
         )
@@ -3387,7 +3267,7 @@
     )
     (pin "1" (uuid 53572ded-78f9-4e55-9e2e-2e6be1f1df7d))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR047") (unit 1)
         )
@@ -3395,24 +3275,24 @@
     )
   )
 
-  (symbol (lib_id "power:+5V") (at 241.3 67.31 90) (unit 1)
+  (symbol (lib_id "power:+5V") (at 224.79 67.31 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ae48f114-494c-423f-942b-e6acf8235943)
-    (property "Reference" "#PWR033" (at 245.11 67.31 0)
+    (property "Reference" "#PWR033" (at 228.6 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+5V" (at 237.49 67.31 90)
+    (property "Value" "+5V" (at 220.98 67.31 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 241.3 67.31 0)
+    (property "Footprint" "" (at 224.79 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 241.3 67.31 0)
+    (property "Datasheet" "" (at 224.79 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8725da4d-08b7-43ad-8d5a-6f9f82cc33e1))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR033") (unit 1)
         )
@@ -3438,7 +3318,7 @@
     (pin "1" (uuid 35b01479-0a13-49c7-99ad-8af50d23a07c))
     (pin "2" (uuid c6ee5a94-7a12-4a84-b8b9-6ebba35e057b))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "C7") (unit 1)
         )
@@ -3463,7 +3343,7 @@
     )
     (pin "1" (uuid 1db25bb6-7b6c-4735-8b91-51a991fa9125))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR016") (unit 1)
         )
@@ -3489,7 +3369,7 @@
     (pin "1" (uuid 5914da2d-5a82-46c8-a5a0-fa0c6dbd256a))
     (pin "2" (uuid 10e6b097-c0ed-4941-ba13-48d6f5039471))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "C3") (unit 1)
         )
@@ -3514,7 +3394,7 @@
     )
     (pin "1" (uuid f3ef650e-3ba8-49ec-ad77-0de85dce2bb9))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR01") (unit 1)
         )
@@ -3542,7 +3422,7 @@
     (pin "3" (uuid 41ad0895-ec6b-4216-96ab-6ced15815e06))
     (pin "4" (uuid 8c6705fc-097a-4910-963a-f2d2e1f5753a))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "J3") (unit 1)
         )
@@ -3567,7 +3447,7 @@
     )
     (pin "1" (uuid edf659dc-9eed-452d-a0d5-ab5e750d607f))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR05") (unit 1)
         )
@@ -3592,7 +3472,7 @@
     )
     (pin "1" (uuid bb7e36d0-531e-4532-bcf9-209bc1037f73))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR012") (unit 1)
         )
@@ -3617,7 +3497,7 @@
     )
     (pin "1" (uuid a6af1a48-f452-4f94-943a-3476e06a682e))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR030") (unit 1)
         )
@@ -3646,7 +3526,7 @@
     (pin "4" (uuid 32ef2813-c273-4f16-be78-aaeb3d5ae12a))
     (pin "5" (uuid eb750217-7529-4181-856f-c7eb86a17563))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "U2") (unit 1)
         )
@@ -3671,7 +3551,7 @@
     )
     (pin "1" (uuid 53c25885-038a-4525-9111-a484d48970f5))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR049") (unit 1)
         )
@@ -3715,7 +3595,7 @@
     (pin "8" (uuid b81e7aea-6f76-4dff-a911-27fa55b2fa76))
     (pin "9" (uuid 7714f388-ff69-4ba4-9d71-2ba5d9a61b86))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "U1") (unit 1)
         )
@@ -3740,7 +3620,7 @@
     )
     (pin "1" (uuid 7c7ead3b-a3fe-4695-89f2-5d90b3071eb4))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR020") (unit 1)
         )
@@ -3765,7 +3645,7 @@
     )
     (pin "1" (uuid 5e25e0a7-8a1b-4b67-8795-512fad841ed3))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR035") (unit 1)
         )
@@ -3790,7 +3670,7 @@
     )
     (pin "1" (uuid 011944c8-313c-4ea8-9bf0-296311c2545d))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR02") (unit 1)
         )
@@ -3816,7 +3696,7 @@
     (pin "1" (uuid 305a9062-fc74-418c-a8f1-86c9ca206652))
     (pin "2" (uuid 3a9c4d44-2a70-4db0-909e-7fb940aeaa43))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "C1") (unit 1)
         )
@@ -3841,7 +3721,7 @@
     )
     (pin "1" (uuid b63669e0-6f7a-43a0-b567-cfedbe264599))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR024") (unit 1)
         )
@@ -3867,7 +3747,7 @@
     (pin "1" (uuid 4abb1558-604e-4e28-84a7-23af3ebfc7e1))
     (pin "2" (uuid 37f3b60f-9ee1-42f3-9223-c5171379aac8))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "C8") (unit 1)
         )
@@ -3893,7 +3773,7 @@
     (pin "1" (uuid d5c43b29-97e3-4ce3-a383-73ada4b43ba8))
     (pin "2" (uuid 488d89d6-0dd5-436c-ab56-3fb748cec222))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "C11") (unit 1)
         )
@@ -3918,7 +3798,7 @@
     )
     (pin "1" (uuid 542d8bc4-bd52-4df2-b348-817543436198))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR015") (unit 1)
         )
@@ -3943,7 +3823,7 @@
     )
     (pin "1" (uuid 915abff9-4299-4eda-b26c-7e294a52325a))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR023") (unit 1)
         )
@@ -3968,7 +3848,7 @@
     )
     (pin "1" (uuid c25e1c8e-b491-4033-a553-b644a0e62ea4))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR029") (unit 1)
         )
@@ -3994,7 +3874,7 @@
     (pin "1" (uuid 560dc471-38c4-461e-b8f0-ec2ae355e925))
     (pin "2" (uuid 8436fa55-865d-4baa-958e-4c117bfbe7ff))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "R3") (unit 1)
         )
@@ -4020,7 +3900,7 @@
     (pin "1" (uuid 343f57c9-74e9-47a3-93f8-5f586fc0fddc))
     (pin "2" (uuid 36879f70-336b-4e03-bf42-cf760364a283))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "C5") (unit 1)
         )
@@ -4045,7 +3925,7 @@
     )
     (pin "1" (uuid 087f9b92-dd4f-4c4e-9e2b-cdbdbe10aa59))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR040") (unit 1)
         )
@@ -4070,7 +3950,7 @@
     )
     (pin "1" (uuid cc19f593-9e83-4682-99bc-75691de422f8))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#FLG01") (unit 1)
         )
@@ -4095,7 +3975,7 @@
     )
     (pin "1" (uuid 26025af9-f387-49b2-a83e-8934c3ddafaf))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR013") (unit 1)
         )
@@ -4121,7 +4001,7 @@
     (pin "1" (uuid e81eb5c3-631c-4ac5-a4c7-91aeed105394))
     (pin "2" (uuid 5b39e3c6-eb55-42f7-a709-59fc75da7e8b))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "C4") (unit 1)
         )
@@ -4145,7 +4025,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "H1") (unit 1)
         )
@@ -4170,7 +4050,7 @@
     )
     (pin "1" (uuid 8c4a9ae0-aa6d-4dbc-9c41-8da0cfcbb725))
     (instances
-      (project "WLAN-Radio-Head"
+      (project "WLAN-Radio-HAT"
         (path "/53ec5734-e095-4a7a-9b01-59d812c5b6d8"
           (reference "#PWR026") (unit 1)
         )
