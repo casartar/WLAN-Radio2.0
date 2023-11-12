@@ -1,0 +1,17 @@
+#EXTM3U
+#EXTINF:0,SWR3 (MP3 High)
+https://liveradio.swr.de/sw282p3/swr3/play.mp3
+#EXTINF:0,SWR3 (AAC Low)
+https://liveradio.swr.de/sw890cl/swr3/play.aac
+#EXTINF:0,SWR3 (AAC High)
+https://liveradio.swr.de/sw331ch/swr3/play.aac
+#EXTINF:0,SWR3 Lyrix (AAC High)
+https://liveradio.swr.de/s344dh2/raka03/play.aac
+#EXTINF:0,SWR3 Rock (AAC High)
+https://liveradio.swr.de/s344dh2/raka05/play.aac
+#EXTINF:0,SWR3 Party (AAC High)
+https://liveradio.swr.de/s344dh2/raka06/play.aac
+#EXTINF:0,SWR3 Mottotage (AAC High)
+https://liveradio.swr.de/s344dh2/raka08/play.aac
+#EXTINF:0,sSWR3 Specials (AAC High)
+https://liveradio.swr.de/s344dh2/raka09/play.aac
