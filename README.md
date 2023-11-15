@@ -103,7 +103,9 @@ TBD
   
 3.10.3.3. Die Zeilen für "audio_output{}" EINkommentieren und ändern, siehe unten
 
+##### nope dont do this
 3.10.3.4. Den User für mpd ändern: Zeile "user mpd" ändern in "user pi".
+##### nope dont do this
 
 3.10.3.5. nano Editor verlassen
 
@@ -112,6 +114,26 @@ TBD
 3.10.5. Default Playlist aus dem Repo in dieses Verzeichnis kopieren: cp WLAN-Radio2./Playlist/Playlist.m3u Playlists/
 
 3.10.6. mpd.service neu starten: "sudo systemctl restart mpd"
+
+3.11. PIP installieren
+sudo apt install python3-pip
+
+3.12. Library für das LCD installieren
+pip install RPLCD --break-system-packages
+
+3.13. Verzeichnis wechseln:
+cd WLAN-Radio2.0/Software
+
+3.14. LCD Test Script ausführen
+python3 lcd_test.py
+
+3.15. MPD Library installieren
+sudo apt install python3-mpd
+
+3.16 MPD Test Script ausführen
+python3 mpd_test.py
+
+
 
 
 ### /etc/mpd.conf vor Änderung
