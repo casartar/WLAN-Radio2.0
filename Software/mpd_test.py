@@ -10,7 +10,7 @@ print(client.mpd_version)
 
 if __name__ == '__main__':
     client.clear()
-    client.load("playlist")
+    client.load("Playlist")
     client.play(0)
 
     while True:

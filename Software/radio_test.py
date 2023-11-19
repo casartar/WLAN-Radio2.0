@@ -159,7 +159,7 @@ if __name__ == '__main__':
     
     # MPD
     client.clear()
-    client.load("playlist")
+    client.load("Playlist")
     client.play(0)
 
     try:
