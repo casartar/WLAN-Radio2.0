@@ -6,8 +6,8 @@ Wants=network-online.target
 [Service]
 Type=simple
 User=pi
-WorkingDirectory=/home/pi/wlan_radio
-ExecStart=/home/pi/wlan_radio/wlan_radio01
+WorkingDirectory=/home/pi/WLAN-Radio2.0/Software
+ExecStart=/usr/bin/python3 /home/pi/WLAN-Radio2.0/Software/radio_test.py
 Restart=always
 
 [Install]
