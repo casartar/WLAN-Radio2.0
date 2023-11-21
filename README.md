@@ -7,31 +7,74 @@
 ## 1. Komponenten
 TBD
 
-## 2. Zusammenbau
-TBD
+## Testaufbau
+### SMD Bestückung
+### THT Bestückung
 
-## 3. Software-Installation
+Buchsenleiste an WLAN-Radio-HAT anlöten. Darauf auchten, dass der Stecker gut auf der Platine aufliegt.
+
+![alt](Doc/Images/rn_image_picker_lib_temp_1d7d7d80-74f2-4d0a-b726-9af4aa6a0726.jpg)
+
+Gewinkelte Stiftleisten anlöten.
+
+Aus Gründen für die 5V Spannungsversorgung gerade Stiftleisten verwenden.
+
+![alt](Doc/Images/rn_image_picker_lib_temp_fb06218b-076f-41ba-8c32-5e0aae7ec380.jpg)
+
+Buchsenleiste and LCD anlöten.
+
+![alt](Doc/Images/rn_image_picker_lib_temp_234642c8-5492-4c17-928f-5ccbc46bb605.jpg)
+
+Gewinkelte Stifleisten an Verstärkermodul anlöten.
+
+Bild TODO
+
+### Testaufbau
+
+* WLAN-Radio-HAT auf Raspberry Pi Zero W stecken.
+* LCD anschließen.
+* Verstärker anschließen.
+* Lautsprecher an Verstärker anstecken.
+* Micro-USB-Kabel an das Raspberry Pi anschließen (PWR IN).
+
+## Software-Installation
 
 ### Erstellen der SD-Karte für den Raspberry Pi mittels Raspberry Pi Imager
 
-3.1. Raspberry Pi Imager installieren - https://www.raspberrypi.com/software/ <screenshot rpi-imager>
+Raspberry Pi Imager installieren - https://www.raspberrypi.com/software/ 
 
-3.2. Betriebssystem auf SD Karte schreiben
+Raspberry Pi Imager ausführen.
+![alt](Doc/Images/Screenshot_20231121_200553.png)
+Gerät wählen: Raspberry Pi Zero
+![alt](Doc/Images/Screenshot_20231121_201224.png)
+Os wählen: Raspberry Pi OS (other)
+![alt](Doc/Images/Screenshot_20231121_201930.png)
+Raspberry Pi OS (Legacy) Lite
+![alt](Doc/Images/Screenshot_20231121_202151.png)
+SD-Karte wählen.
+![alt](Doc/Images/Screenshot_20231121_202421.png)
+Next
+![alt](Doc/Images/Screenshot_20231121_202535.png)
+Einstellungen bearbeiten.
+![alt](Doc/Images/Screenshot_20231121_202631.png)
+* Hostname: individuell benennen.
+* Benutzer: "pi"
+* Passwort: "raspberry"
+* SSID: geheim
+* Passwort: geheim
 
-  3.2.1. Pi Modell auswählen (Pi Zero WH) <screenshot>
-  
-  3.2.2. Raspberry Pi OS (Legacy) Lite auswählen <screenshot>
-  
-  3.2.3. Optionen setzen: 
-* wlan ssid: radio
-* passwort:12345678
-* user:pi
-* passwort:raspberry
-* weitere optionen: nur "ssh per passwort" auswählen, sonst nix ändern
+Im Reiter "Dienste" kann man auch gerne seinen Public Key hinterlegen, muss aber nicht sein.
+![alt](Doc/Images/Screenshot_20231121_202818.png)
+Speichern und Ja wählen und mit Ja bestätigen
+![alt](Doc/Images/Screenshot_20231121_203328.png)
+SD-Karte wird beschrieben.
+![alt](Doc/Images/Screenshot_20231121_203419.png)
+SD-Karte ist fertig beschrieben.
+![alt](Doc/Images/Screenshot_20231121_203637.png)
 
-  3.2.4. SD Karte programmieren
+SD-Karte in Pi einstecken und Micro-USB-Kabel an Laptop anschließen.
   
-### SD Karte in Raspi stecken und den Pi booten, warten, der erste Start dauert u.U. mehrere Minuten
+### Der erste Start des Pi dauert u.U. mehrere Minuten
 
 ### System aktualisieren
 IP Adresse herausfinden
