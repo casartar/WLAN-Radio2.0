@@ -27,7 +27,9 @@ Buchsenleiste and LCD anlöten.
 
 Gewinkelte Stifleisten an Verstärkermodul anlöten.
 
-Bild TODO
+![alt](Doc/Images/rn_image_picker_lib_temp_0e6c855c-58bf-4a00-86e8-27c6f86bd6be.jpg)
+
+
 
 ### Testaufbau
 
@@ -36,6 +38,8 @@ Bild TODO
 * Verstärker anschließen.
 * Lautsprecher an Verstärker anstecken.
 * Micro-USB-Kabel an das Raspberry Pi anschließen (PWR IN).
+
+![alt](Doc/Images/rn_image_picker_lib_temp_f6003c7c-b0ff-4a12-8b8e-d8390baf359f.jpg)
 
 ## Software-Installation
 
@@ -89,7 +93,7 @@ sudo apt update
 sudo apt upgrade
 ```
 
-### GIT und Repo installieren
+### GIT installieren und WLAN-Radio2.0 clonen
 
 ```
 sudo apt install git
@@ -101,6 +105,10 @@ sudo git clone https://github.com/casartar/WLAN-Radio2.0.git
 ```
 sudo apt install i2c-tools
 sudo apt install python3-pip
+pip install RPLCD
+```
+Wenn pip einen Fehler ausgibt noch mal versuchen mit:
+```
 pip install RPLCD --break-system-packages
 ```
 
@@ -129,7 +137,7 @@ python3 lcd_test.py
 
 Auf dem LCD sollte jetzt **"WLAN Radio"** und **"1234567890abcdef"** angezeigt werden.
 
-### 3.7. Audio Komponenten installieren und Testen
+### Audio Komponenten installieren und Testen
 
 /boot/config.txt anpassen mit
 
@@ -157,9 +165,9 @@ Testen mit:
 speaker-test -t wav -c 2
 ```
 
-Es sollte "Front Left" und "Front Right" aus dem entsprechenden Lautsprecher ertönen.
+Es sollte "Front Left" und "Front Right" aus den entsprechenden Lautsprechern ertönen.
 
-### 3.8. MPD und MPC einrichten (Music Player Daemon, Music Player Client)
+### MPD und MPC einrichten (Music Player Daemon, Music Player Client)
 
 ```
 sudo apt install mpd
@@ -240,8 +248,26 @@ cd ~/WLAN-Radio2.0/Software
 python3 mpd_test.py
 ```
 
+### Radio Testen
 
+```
+cd ~/WLAN-Radio2.0/Software
+python3 radio_test.py
+```
 
+Mit der Pinzette die beiden Pins für Next respektive Previous kurzschließen und prüfen, ob ein anderer Sender abgespielt wird.
+
+### Weitere WLAN-Zugangsdaten hinzufügen
+
+```
+sudo nano /etc/wpa_suppicant/wpa_supplicant.conf
+```
+
+### Autostart
+
+```
+cp ... 
+```
 
 
 
