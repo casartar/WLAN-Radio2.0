@@ -1,8 +1,6 @@
 # WLAN-Radio2.0
 
-1. Komponenten
-2. Zusammenbau
-3. Software-Installation
+![alt](Doc/Images/rn_image_picker_lib_temp_afa1ddd7-56b1-41ca-871a-b3567bc09444-removebg-preview.png)
 
 ## 1. Komponenten
 TBD
@@ -305,6 +303,70 @@ sudo systemctl start wlan-radio
 sudo systemctl status wlan-radio
 ```
 
+## Gehäuse Lasern
 
+Benötigt wird die Datei Case_with_custom_cutouts_6mm.svg
 
+Das Gehäuse wird aus Buche Sperrholzplatten 6mm gelasert. 
+Startingpoint sind 80% Leistung und 20 mm/s Geschwindigkeit.
 
+Nach dem Lasern sollten die Schnittkanten mit Schmiergelpapier bearbeitet werden, da das Holz sehr nach verbrannt riecht.
+
+Ob man das Holz weiter bearbeiten, also einölen oder lackieren möchte, darf jeder selbst entscheiden.
+
+## Fräsarbeiten
+
+Die Bedienelemente müssen im Holz versenkt werden, da die Gewinde für 6 mm Holz zu kurz sind.
+Für die Vertiefungen wird mit der Oberfräse 3 mm abgefäst.
+
+Wo gefäst werden muss, ist in der Datei Deepenings.svg rot markiert.
+
+ACHTUNG! Die Zeichung ist die Sicht von Außen auf das Radio, die Vertiefungen sind aber innen. Beim Display muss also gespiegelt ausgefräßt werden.
+
+Am besten steckt man die Bauteile in die Aussparungen und zeichnet mit dem Bleistift an, wo gefräßt werden soll.
+
+![alt](Doc/Images/rn_image_picker_lib_temp_5c200745-794b-4489-a20a-4eaecd2b725c.jpg)
+
+![alt](Doc/Images/rn_image_picker_lib_temp_00bad2cb-d237-46a7-a9af-c1a5be741ca0.jpg)
+
+## Einbau der Elektronik
+
+### Rückwand (USB-C + Pi)
+Vor dem einbau der USB-C Buchse werden an die Leitungen Dupont Buchsen gecrimpt.
+
+Um den Pi zu montieren, müssen von außen vier Zylinderkopfschrauben M2,5 mit Länge xx gesteckt werden.
+Von innen werden Stehbolzen M2,5 (Länge relativ egal) mit Innen- und Außenewinde auf die Schrauben augeschraubt. Darauf wird der Pi gesteckt. Dann werden wieder vier Stehbolte mit Innen und Außengewinde aufgeschraubt. Länge 11 mm. Dann kommt der HAT und M2,5 Muttern.
+
+### Deckel
+
+An die beiden Taster werden zweipolige Stiftleisten gelötet und dann verschraubt.
+
+Beim Schalter werden an zwei benachbarte Kontakt je eine zweipolige Stiftleiste gelötet.
+
+### Front
+
+Vorne werden die Lautsprecher mit 8 M5 Zylinderkopfschrauben mit Länge xx mm und entsprechenden Muttern befestigt.
+
+Für das LCD werden 4 M3 Zylinderkopfschrauben mit Länge xx mm und entsprechende Muttern benötigt.
+
+Der Verstärker wird mit den beiligenden Utensilien befestigt.
+
+## Zusammenleimen
+
+Man benutze viele viele Schraubzwingen und sanfte Gewalt beim Zusammenstecken.
+
+Der Boden wird nicht verleimt, sondern nur gesteckt. Sollte er nicht halten, muss man sich was schlaues überlegen, dass er es doch tut.
+
+![alt](Doc/Images/rn_image_picker_lib_temp_33dfafee-b81e-48e9-8fad-b0570744117b.jpg)
+
+## Verkabelung
+
+Wenn alles mit rechten Dingen zugegangen ist, sollte jetzt alles mit ordinären Jumperkabeln zu verbinden sein. 
+
+1. Die gecrimpten Buchsen an der USB-C buchse werden auf die Spannungsversorgungspins auf dem HAT gesteckt.
+2. Der mit 5V markierte Pin des LCD-Anschlusses wird mit einem Pin am An/Aus-Schalter verbunden.
+3. Vom An/Ausschalter werden zwei weitere Jumperkabel (vom anderen Anschluss) an das LCD und den Verstärker geführt.
+4. Je zwei Leitungen werden für die Taster benötigt.
+5. Den Rest der Verkabelung für LCD und Verstärker, wie im Testaufbau.
+
+Wenn man jetzt das Netzteil einsteckt, sollte nach eineiger Zeit das Radio ertönen.
