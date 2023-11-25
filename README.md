@@ -262,6 +262,33 @@ Mit der Pinzette die beiden Pins für Next respektive Previous kurzschließen un
 ```
 sudo nano /etc/wpa_suppicant/wpa_supplicant.conf
 ```
+Die konfiguration sollte in etwa so aussehen:
+
+```
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+
+network={
+        ssid="HierKönnteIhreSsidStehen"
+        psk=e04000a6ccb88f7ac28bd18ed807fdb820ac8524dbc6f50d4bfe2d788c3609fd
+}
+```
+
+Das muss erweitert werden zu:
+
+```
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+
+network={
+        ssid="HierKönnteIhreSsidStehen"
+        psk=e04000a6ccb88f7ac28bd18ed807fdb820ac8524dbc6f50d4bfe2d788c3609fd
+}
+network={
+        ssid="AndereSsid"
+        psk="pazzzW0rd"
+}
+```
 
 ### Autostart
 
