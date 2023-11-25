@@ -9,6 +9,7 @@ TBD
 
 ## Testaufbau
 ### SMD Bestückung
+Siehe [ibom](https://github.com/casartar/WLAN-Radio2.0/blob/main/Hardware/WLAN-Radio-HAT/bom/ibom.html)
 ### THT Bestückung
 
 Buchsenleiste an WLAN-Radio-HAT anlöten. Darauf auchten, dass der Stecker gut auf der Platine aufliegt.
@@ -290,10 +291,18 @@ network={
 }
 ```
 
+Speichern mit Strg+O und Schließen mit Strg+X und Enter.
+
 ### Autostart
 
 ```
-cp ... 
+sudo cp ~/WLAN-Radio2.0/Config/wlan-radio.service /etc/systemd/system/
+sudo chmod 640 /etc/systemd/system/wlan-radio.service
+systemctl status htg.service
+sudo systemctl daemon-reload
+sudo systemctl enable wlan-radio
+sudo systemctl start wlan-radio
+sudo systemctl status wlan-radio
 ```
 
 
