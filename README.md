@@ -363,6 +363,8 @@ Der Boden wird nicht verleimt, sondern nur gesteckt. Sollte er nicht halten, mus
 
 Wenn alles mit rechten Dingen zugegangen ist, sollte jetzt alles mit ordinären Jumperkabeln zu verbinden sein. 
 
+![alt](Doc/Images/IMG_20231115_211402.jpg)
+
 1. Die gecrimpten Buchsen an der USB-C buchse werden auf die Spannungsversorgungspins auf dem HAT gesteckt.
 2. Der mit 5V markierte Pin des LCD-Anschlusses wird mit einem Pin am An/Aus-Schalter verbunden.
 3. Vom An/Ausschalter werden zwei weitere Jumperkabel (vom anderen Anschluss) an das LCD und den Verstärker geführt.
