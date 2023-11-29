@@ -104,6 +104,7 @@ sudo git clone https://github.com/casartar/WLAN-Radio2.0.git
 ```
 sudo apt install i2c-tools
 sudo apt install python3-pip
+sudo apt install python3-smbus
 pip install RPLCD
 ```
 Wenn pip einen Fehler ausgibt noch mal versuchen mit:
@@ -130,6 +131,7 @@ sudo reboot
 Verbinden per ssh
 
 ```
+sudo i2cdetect -y 1
 cd ~/WLAN-Radio2.0/Software
 python3 lcd_test.py
 ```
