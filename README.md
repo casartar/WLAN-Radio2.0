@@ -304,7 +304,7 @@ Speichern mit Strg+O und Schließen mit Strg+X und Enter.
 ```
 sudo cp ~/WLAN-Radio2.0/Config/wlan-radio.service /etc/systemd/system/
 sudo chmod 640 /etc/systemd/system/wlan-radio.service
-systemctl status htg.service
+systemctl status wlan-radio
 sudo systemctl daemon-reload
 sudo systemctl enable wlan-radio
 sudo systemctl start wlan-radio
