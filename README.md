@@ -398,6 +398,8 @@ nano Playlist.m3u
 
 Hier neue Webstreams hinzufügen.
 
+https://streamurl.link/ scheint eine ganz gute Quelle für URLs zu sein.
+
 Speichern mit Strg+O, Enter und Schließen mit Strg+X.
 
 Das WLAN-Radio neu starten. Dabei wird die Playlist neu eingelesen.
