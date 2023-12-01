@@ -385,3 +385,17 @@ Wenn alles mit rechten Dingen zugegangen ist, sollte jetzt alles mit ordinären 
 5. Den Rest der Verkabelung für LCD und Verstärker, wie im Testaufbau.
 
 Wenn man jetzt das Netzteil einsteckt, sollte nach eineiger Zeit das Radio ertönen.
+
+## Senderliste bearbeiten
+
+Per SSH verbinden:
+
+```
+ssh pi@xxx.xxx.xxx.xxx
+cd ~/Playlists
+nano Playlist.m3u
+```
+
+Hier neue Webstreams hinzufügen.
+
+Speichern mit Strg+O und Schließen mit Strg+X und Enter.
