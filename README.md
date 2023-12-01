@@ -124,7 +124,7 @@ sudo nano /boot/config.txt
 
 Parameter: **dtparam=i2c_arm=on** einkommentieren
 
-Speichern mit Strg+O und Schließen mit Strg+X und Enter.
+Speichern mit Strg+O, Enter und Schließen mit Strg+X.
 
 Neustart
 
@@ -154,7 +154,7 @@ Am Ende der Datei hinzufügen: **dtoverlay=hifiberry-dac**
 Zeile auskommentieren (Raute vorne dran) **#dtparam=audio=on**
 Zeile auskommentieren (Raute vorne dran)  **#dtoverlay=vc4-kms-v3d**
 
-Speichern mit Strg+O und Schließen mit Strg+X und Enter.
+Speichern mit Strg+O, Enter und Schließen mit Strg+X.
 
 Neustart
 
@@ -219,7 +219,7 @@ audio_output { 
 }
 ```
 
-Speichern mit Strg+O und Schließen mit Strg+X und Enter.
+Speichern mit Strg+O, Enter und Schließen mit Strg+X.
 
 Das Verzeichnis anlegen: 
 ```
@@ -302,7 +302,7 @@ network={
 }
 ```
 
-Speichern mit Strg+O und Schließen mit Strg+X und Enter.
+Speichern mit Strg+O, Enter und Schließen mit Strg+X.
 
 ### Autostart
 
@@ -398,4 +398,4 @@ nano Playlist.m3u
 
 Hier neue Webstreams hinzufügen.
 
-Speichern mit Strg+O und Schließen mit Strg+X und Enter.
+Speichern mit Strg+O, Enter und Schließen mit Strg+X.
