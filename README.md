@@ -403,5 +403,5 @@ Speichern mit Strg+O, Enter und Schließen mit Strg+X.
 Das WLAN-Radio neu starten. Dabei wird die Playlist neu eingelesen.
 
 ```
-sudo systemctl start wlan-radio
+sudo systemctl restart wlan-radio
 ```
