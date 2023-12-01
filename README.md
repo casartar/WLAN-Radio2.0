@@ -68,6 +68,10 @@ Einstellungen bearbeiten.
 
 Im Reiter "Dienste" kann man auch gerne seinen Public Key hinterlegen, muss aber nicht sein.
 ![alt](Doc/Images/Screenshot_20231121_202818.png)
+
+Im Reiter "Dienste" SSH aktivieren und "Passwort zur Authentifizierung verwenden" auswählen. Wer weiß was er tut, kann man auch gerne seinen Public Key hinterlegen, muss aber nicht sein.
+![alt](Doc/Images/image.png)
+
 Speichern und Ja wählen und mit Ja bestätigen
 ![alt](Doc/Images/Screenshot_20231121_203328.png)
 SD-Karte wird beschrieben.
