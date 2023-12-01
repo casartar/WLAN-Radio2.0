@@ -272,7 +272,7 @@ Mit der Pinzette die beiden Pins für Next respektive Previous kurzschließen un
 ### Weitere WLAN-Zugangsdaten hinzufügen
 
 ```
-sudo nano /etc/wpa_suppicant/wpa_supplicant.conf
+sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 ```
 Die konfiguration sollte in etwa so aussehen:
 
