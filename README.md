@@ -242,6 +242,7 @@ mpc load Playlist
 mpc play
 mpc next
 mpc status
+mpc pause
 ```
 Wenn nach mpc load P Playlist nicht autovervollständigt wird, muss evtl. in der mpd.conf der User von mpd zu pi geändert werden.
 
@@ -254,6 +255,10 @@ MPD Test Script ausführen
 cd ~/WLAN-Radio2.0/Software
 python3 mpd_test.py
 ```
+
+Es sollte ein Sender abgespielt werden.
+
+Mit Strg + C wird der test beendet.
 
 ### Radio Testen
 
