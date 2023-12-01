@@ -172,6 +172,8 @@ speaker-test -t wav -c 2
 
 Es sollte "Front Left" und "Front Right" aus den entsprechenden Lautsprechern ertönen.
 
+Mit Strg + C kann die Ausgabe abbrechen.
+
 ### MPD und MPC einrichten (Music Player Daemon, Music Player Client)
 
 ```
