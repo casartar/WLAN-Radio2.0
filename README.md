@@ -347,7 +347,7 @@ Am besten steckt man die Bauteile in die Aussparungen und zeichnet mit dem Bleis
 ### Rückwand (USB-C + Pi)
 Vor dem einbau der USB-C Buchse werden an die Leitungen Dupont Buchsen gecrimpt.
 
-Um den Pi zu montieren, müssen von außen vier Zylinderkopfschrauben M2,5 mit Länge xx gesteckt werden.
+Um den Pi zu montieren, müssen von außen vier Zylinderkopfschrauben M2,5 mit Länge 8 mm gesteckt werden.
 Von innen werden Stehbolzen M2,5 (Länge relativ egal) mit Innen- und Außenewinde auf die Schrauben augeschraubt. Darauf wird der Pi gesteckt. Dann werden wieder vier Stehbolte mit Innen und Außengewinde aufgeschraubt. Länge 11 mm. Dann kommt der HAT und M2,5 Muttern.
 
 ### Deckel
@@ -358,9 +358,9 @@ Beim Schalter werden an zwei benachbarte Kontakt je eine zweipolige Stiftleiste 
 
 ### Front
 
-Vorne werden die Lautsprecher mit 8 M5 Zylinderkopfschrauben mit Länge xx mm und entsprechenden Muttern befestigt.
+Vorne werden die Lautsprecher mit 8 M5 Zylinderkopfschrauben mit Länge 10 mm und entsprechenden Muttern befestigt.
 
-Für das LCD werden 4 M3 Zylinderkopfschrauben mit Länge xx mm und entsprechende Muttern benötigt.
+Für das LCD werden 4 M3 Zylinderkopfschrauben mit Länge 12 mm und entsprechende Muttern benötigt.
 
 Der Verstärker wird mit den beiligenden Utensilien befestigt.
 
